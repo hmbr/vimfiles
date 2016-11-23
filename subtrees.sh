@@ -1,5 +1,8 @@
-#for i in bundle/*; do git rm -rf $i; done
-#git commit -m "auto bundler remover"
+for i in bundle/*; do git rm -rf $i; done
+for i in bundle/*; do rm -rf $i; done
+
+git commit -m "auto bundler remover"
+
 git subtree add --prefix=bundle/Align --squash https://github.com/vim-scripts/Align.git master ;
 git subtree add --prefix=bundle/SQLUtilities --squash http://github.com/vim-scripts/SQLUtilities.git master;
 git subtree add --prefix=bundle/emmet-vim --squash https://github.com/mattn/emmet-vim master;
