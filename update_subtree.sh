@@ -17,3 +17,4 @@ git subtree pull --prefix=bundle/vim-snippets --squash https://github.com/honza/
 git subtree pull --prefix=bundle/vim-stylus --squash https://github.com/wavded/vim-stylus.git master;
 git subtree pull --prefix=bundle/vimwiki --squash https://github.com/vimwiki/vimwiki.git master;
 git subtree pull --prefix=bundle/xmledit --squash https://github.com/sukima/xmledit.git master;
+git subtree pull --prefix=bundle/vim-markdown --squash https://github.com/plasticboy/vim-markdown master;

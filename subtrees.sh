@@ -22,3 +22,4 @@ git subtree add --prefix=bundle/vim-snippets --squash https://github.com/honza/v
 git subtree add --prefix=bundle/vim-stylus --squash https://github.com/wavded/vim-stylus.git master;
 git subtree add --prefix=bundle/vimwiki --squash https://github.com/vimwiki/vimwiki.git master;
 git subtree add --prefix=bundle/xmledit --squash https://github.com/sukima/xmledit.git master;
+git subtree add --prefix=bundle/vim-markdown --squash https://github.com/plasticboy/vim-markdown master;
